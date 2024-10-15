@@ -152,3 +152,8 @@ footer .btn {
     margin-left: 32px;
     margin-top: 10px;
 }
+
+.navbar-toggler {
+    border: none; /* Убирает рамку */
+    outline: none; /* Убирает обводку при фокусе */
+}
