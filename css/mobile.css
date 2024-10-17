@@ -1,0 +1,163 @@
+:root {
+    --color1: #7FA1C3;
+    --color2: #6482AD;
+    --color3: #24476A;
+    --color4: #abd5ffa2;
+    --colorGrey: #D9D9D9;
+}
+
+.primaryColor {
+    color: var(--color1);
+  }
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../font/Inter-VariableFont_opszwght.ttf"); 
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    user-select: none;
+}
+body {
+    width: 100%;
+    margin: 0 auto; /* Центрирует body */
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh; /* Используйте 100vh для высоты */
+    flex-direction: column;
+}
+
+.container {
+    max-width: 600px; /* Убедитесь, что это значение корректно */
+    margin: 0 auto; /* Центрирует контейнер */
+    padding: 0 15px; /* Добавляет отступы */
+}
+.section {
+    scroll-margin-top: 132px;
+}
+
+
+/* @media (max-width:600px){
+    .container{
+        max-width:600px;
+    }
+}
+@media (max-width:px){
+    .container{
+        max-width:none;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width:none;
+    }
+} */
+
+.page{
+    flex: 1 0 auto;
+}
+
+/* .service i {
+    font-size: 12px;
+    color: black;
+}
+.contacts i {
+    font-size: 25px;
+    color: black;
+} 
+.footer i {
+    font-size: 25px;
+    color: black;
+} */
+
+/* .service_circle {
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service_line {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: 15px auto 30px;
+}
+
+footer .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  } */
+
+.me-12px {
+    margin-right: 6px;
+}
+.ms-32px {
+    margin-left: 16px;
+}
+.mb-32px {
+    margin-bottom: 16px;
+}
+.mt-132px {
+    margin-top: 100px;
+}
+
+.fs-18px{
+    font-size: 9px;
+}
+.fs-32px{
+    font-size: 16px;
+}
+.fs-48px{
+    font-size: 24px;
+}
+
+.custom-underline {
+    border-bottom: 1px var(--colorGrey) solid;
+}
+.about_color{
+    color: var(--color3);
+}
+.services_color{
+    color: var(--color2);
+}
+.br-16px{
+    border-radius: 16px;
+}
+
+/* Отступ между иконками */
+.icons .icon {
+    margin-right: 12px; /* Отступ между иконками */
+    justify-content: center;
+}
+/* Убираем отступ у последней иконки */
+.icons .icon:last-child {
+    margin-right: 0;
+}
+.collapse .icons {
+    justify-content: center;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    border: none; /* Убирает рамку */
+    outline: none; /* Убирает обводку при фокусе */
+}
+.icon {
+    height: 16px;
+    width: 16px;
+}
