@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="SectionHeader" class="header pt-3 bg-light fixed-top custom-underline">
+        <div class="container text-center pb-3 px-0">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid text-center p-0">
+                            <img src="img/KAEcomp.svg" class="img-fluid" alt="Logo">
+                            <button class="navbar-toggler navbar-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span> <!-- This should display the hamburger icon -->
+                            </button>
+                            
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item ms-32px">
+                                        <a class="nav-link fs-18px ps-0 pe-0" href="#sectionAbout">О компании</a>
+                                    </li>
+                                    <li class="nav-item ms-32px">
+                                        <a class="nav-link fs-18px ps-0 pe-0" href="#sectionService">Услуги</a>
+                                    </li>
+                                    <li class="nav-item ms-32px">
+                                        <a class="nav-link fs-18px ps-0 pe-0" href="#sectionContact">Оставить заявку</a>
+                                    </li>
+                                </ul>
+                                <div class="d-flex icons">
+                                    <div class="icon"><img class="img-fluid" src="img/email.svg" alt="Email"></div>
+                                    <div class="icon"><img class="img-fluid" src="img/FB.svg" alt="Facebook"></div>
+                                    <div class="icon"><img class="img-fluid" src="img/INST.svg" alt="Instagram"></div>
+                                    <div class="icon"><img class="img-fluid" src="img/TG.svg" alt="Telegram"></div>
+                                    <div class="icon"><img class="img-fluid" src="img/WP.svg" alt="WhatsApp"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="sectionAbout" class="section about mt-132px">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                    <div>
+                        <h2 class="mb-3 fs-48px about_color">KAE Company — разработки показала </h2>
+                        <p class="text-start fs-18px">Внезапно, сделанные на базе интернет-аналитики выводы обнародованы! Идейные соображения высшего порядка, а также экономическая повестка сегодняшнего дня играет важную роль в формировании соответствующих условий активизации. Идейные соображения высшего порядка, а также понимание сути ресурсосберегающих технологий влечет за собой процесс внедрения и модернизации</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 d-flex">
+                    <img src="img/about.jpeg" class="img-fluid br-16px" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sectionService">
+        <div class="container mb-42px">
+            <div class="row mt-5">
+                <div class="col-12 p-0">
+                    <h2 class="text-left mb-32px services_color fs-32px">Услуги</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-12" style="padding:0; width:250px">
+                    <img src="img/USA.jpg" class="img-fluid br-8px c_shadow" style="width:250px; height:312px">
+                    <div class="buttonMore">
+                        <a href="USA.html" class="btn-more fs-18px">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12" style="padding:0; width:250px">
+                    <img src="img/INVEST.jpg" class="img-fluid br-8px c_shadow" style="width:250px; height:312px">
+                    <div class="buttonMore">
+                        <a href="USA.html" class="btn-more fs-18px">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12" style="padding:0; width:250px">
+                    <img src="img/WORK.jpg" class="img-fluid br-8px c_shadow" style="width:250px; height:312px">
+                    <div class="buttonMore">
+                        <a href="USA.html" class="btn-more fs-18px">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12" style="padding:0; width:250px">
+                    <img src="img/APS.jpg" class="img-fluid br-8px c_shadow" style="width:250px; height:312px">
+                    <div class="buttonMore">
+                        <a href="USA.html" class="btn-more fs-18px">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sectionContact" class="mb-32px contacts">
+        <div class="container">
+            <div class="row">
+                <div class="image-container col-lg-6 col-md-12">
+                    <img src="img/Contact.svg" alt="Contact" class="img-fluid">
+                </div>
+                <div class="form-section col-lg-6 col-md-12">
+                    <h2 class="mt-96px mb-24px fs-48px contact_color text-end">Свяжитесь с нами!</h2>
+                    <form id="contactForm" method="post" action="send.php">
+                        <div class="form-group">
+                            <input type="text" id="fio" name="fio" placeholder="Введите ваше имя" required pattern="[А-Яа-яЁё\s]+" title="Введите корректное ФИО (только буквы и пробелы)">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Введите ваш e-mail" required pattern=".*@.*" >
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Введите ваше сообщение" required minlength="10"  title="Сообщение должно содержать минимум 10 символов"></textarea>
+                        </div>
+                        <button type="submit" class="btn-form">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script>
+        // Получаем все ссылки навигации
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                // Закрываем бургер-меню
+                const navbarCollapse = document.getElementById('navbarNav');
+                const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                    toggle: false // Не переключаем состояние
+                });
+                bsCollapse.hide(); // Закрываем меню
+            });
+        });
+    </script>
+</body>
+</html>
+
